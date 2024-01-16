@@ -35,9 +35,9 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-web")
     // Spring Data JPA
-//    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     // JPA Entity Manager
-    implementation("org.hibernate:hibernate-entitymanager:5.3.10.Final")
+//    implementation("org.hibernate:hibernate-entitymanager:5.3.10.Final")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     runtimeOnly("com.h2database:h2")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
